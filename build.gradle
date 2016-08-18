@@ -1,0 +1,16 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.1.2'
+    }
+}
+
+allprojects {
+    buildDir = "C:/tmp/${rootProject.name}/${project.name}"
+    repositories {
+        jcenter()
+    }
+}
